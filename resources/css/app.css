@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+:root{
+    --card-border-radius:2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+
+
+
+.card-body1{
+    padding:1rem;
+}
+.card-body2{
+    padding:1rem;
+}
+.card-body3{
+    padding:1rem;
+}
+table.recent-info table{
+    background: var(--color-white);
+    width:100%;
+    border-radius:var(--card-border-radius);
+    padding:var(--card-padding);
+    text-align:center;
+    box-shadow:var(--box-shadow);
+    transition: all 300ms ease;
+}
+ 
+@media only screen and (max-width:768px){
+    .purple-card{
+        display:flex;
+        width:100%;
+        
+    }
+    card-body2.text-muted{
+        display:flex;
+        align-items: center;
+    }
+    .mini-stat-info p{
+display: none !important; 
+color: blue;   }
+}
